@@ -1,7 +1,5 @@
 # Proffy: Back-end
 
-### ✅ Concluído
-
 ### ⚒️ Features
 
 - [x] Cadastro de aulas
