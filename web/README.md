@@ -2,13 +2,10 @@
 
 ### 🎨 Aplicação:
 
-Página inicial
 ![p3](https://user-images.githubusercontent.com/48728541/89483734-2b8b9400-d773-11ea-88d9-27502d599994.png)
 
-Cadastro de aulas
 ![p2](https://user-images.githubusercontent.com/48728541/89483798-537af780-d773-11ea-9822-925c81cf23d8.png)
 
-Listagem de aulas e proffys disponíveis
 ![p1](https://user-images.githubusercontent.com/48728541/89483814-5e358c80-d773-11ea-8f02-9defb8551bda.png)
 
 ### ⚙️ Pré-requisitos
