@@ -58,6 +58,6 @@ $ yarn start
 - **GET**: `/connections` - Listagem de conexões
 - **POST**: `/connections` - Criação de Conexões
 
-<h2>📝 Licença:</h2>
+### 📝 Licença:
 
 <p style="font-size: 16px; color: #fff;">Este projeto está licenciado sob a licença MIT - consulte a página <a href="https://opensource.org/licenses/MIT" style=" font-size: 16px; " >LICENSE</a> para obter detalhes.</p>
