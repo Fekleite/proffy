@@ -40,9 +40,17 @@
   color: var(--color-title-in-primary);
 }
 
+.page-header .header-content p {
+  max-width: 30rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--color-text-in-primary);
+  margin-top: 2.4rem;
+}
+
 @media (min-width: 700px) {
   .page-header {
-    height: 340px;
+    height: 34rem;
   }
 
   .page-header .top-bar-container {
@@ -51,7 +59,7 @@
 
   .page-header .header-content {
     flex: 1;
-    max-width: 740px;
+    max-width: 74rem;
     margin: 0 auto;
     padding-bottom: 48px;
     display: flex;
@@ -61,6 +69,6 @@
   }
 
   .page-header .header-content strong {
-    max-width: 340px;
+    max-width: 40rem;
   }
 }
