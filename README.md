@@ -17,17 +17,17 @@
  <a href="Features">Features</a> • 
  <a href="Extra">Extra</a> •
  <a href="Autor">Autor</a> •
- <a href="Autor">Licença</a>
+ <a href="Licença">Licença</a>
 </p>
 
-<h2>Tecnologias:</h2>
+## Tecnologias
 
 - <a href="https://www.typescriptlang.org/" style="text-decoration: none; font-size: 16px; color: #fff;" >TypeScript </a>
 - <a href="https://nodejs.org/en/" style="text-decoration: none; font-size: 16px; color: #fff;" >Node JS </a>
 - <a href="https://pt-br.reactjs.org/" style="text-decoration: none; font-size: 16px; color: #fff;" >React JS </a>
 - <a href="https://reactnative.dev/" style="text-decoration: none; font-size: 16px; color: #fff;" >React Native </a>
 
-<h2>Features:</h2>
+## Features:
 
 - [x] Cadastro de aulas
 - [x] Listagem de aulas filtrada
@@ -37,7 +37,7 @@
 - [ ] Login de usuário
 - [ ] Perfil de usuário
 
-<h2>Extra:</h2>
+## Extra:
 
 - [ ] Styled Components
 - [ ] Unform
@@ -46,7 +46,7 @@
 - [ ] Picker
 - [ ] Themes
 
-<h2>Autor:</h2>
+## Autor:
 
 Feito com ❤️ por Fernanda Leite!
 
