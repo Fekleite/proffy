@@ -1,5 +1,11 @@
 import React, { ReactNode } from "react";
-import { View, Image, Text } from "react-native";
+import {
+  View,
+  Image,
+  Text,
+  KeyboardAvoidingView,
+  Platform,
+} from "react-native";
 import { BorderlessButton } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";
 
@@ -25,7 +31,10 @@ const PageHeader: React.FC<PageHeaderProps> = ({
   }
 
   return (
-    <View style={styles.container}>
+    <KeyboardAvoidingView
+      style={styles.container}
+      behavior={Platform.OS === "ios" ? "padding" : "position"}
+    >
       <View style={styles.topBar}>
         <BorderlessButton onPress={handleNavigateBack}>
           <Image source={backIcon} resizeMode="contain" />
@@ -41,7 +50,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({
       </View>
 
       {children}
-    </View>
+    </KeyboardAvoidingView>
   );
 };
 
