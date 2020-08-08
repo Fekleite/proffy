@@ -13,11 +13,11 @@
 <p align="center" style="font-size: 24px">Proffy é uma aplicação que visa conectar alunos e professores.</p>
 
 <p align="center">
- <a href="Tecnologias">Tecnologias</a> •
- <a href="Features">Features</a> • 
- <a href="Extra">Extra</a> •
- <a href="Autor">Autor</a> •
- <a href="Licença">Licença</a>
+ <a href="#tecnologias">Tecnologias</a> •
+ <a href="#features">Features</a> • 
+ <a href="#extra">Extra</a> •
+ <a href="#autor">Autor</a> •
+ <a href="#licença">Licença</a>
 </p>
 
 ## Tecnologias
@@ -65,3 +65,9 @@ Feito com ❤️ por Fernanda Leite!
   <a href="https://twitter.com/Fekleite19" alt="Twitter">
     <img src="https://img.shields.io/badge/-Twitter-1da0f2?style=flat-square&logo=Twitter&logoColor=white" />
   </a>
+  
+## Licença:
+
+Este projeto está licenciado sob a licença MIT - consulte a página [LICENSE](https://opensource.org/licenses/MIT) para obter detalhes.
+  
+  
