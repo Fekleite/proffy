@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     fontFamily: "Archivo_700Bold",
     color: "#fff",
     fontSize: 16,
-    marginLeft: 16,
+    marginLeft: 8,
   },
 });
 

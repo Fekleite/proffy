@@ -11,7 +11,7 @@ import TeacherItem, { Teacher } from "../../components/TeacherItem";
 import api from "../../services/api";
 
 const TeacherList: React.FC = () => {
-  const [isFiltersVisible, setIsFiltersVisible] = useState(false);
+  const [isFiltersVisible, setIsFiltersVisible] = useState(true);
 
   const [teachers, setTeachers] = useState([]);
 
