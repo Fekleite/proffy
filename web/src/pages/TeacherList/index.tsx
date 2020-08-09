@@ -1,7 +1,7 @@
 import React, { useState, FormEvent } from "react";
 import { FiSearch } from "react-icons/fi";
 
-import "./styles.css";
+import { Container, Form, Content } from "./styles";
 
 import PageHeader from "../../components/PageHeader";
 import TeacherItem, { Teacher } from "../../components/TeacherItem";
@@ -32,9 +32,9 @@ const TeacherList: React.FC = () => {
   }
 
   return (
-    <div id="page-teacher-list" className="container">
+    <Container>
       <PageHeader title="Esses são os proffys disponíveis.">
-        <form id="search-teachers" onSubmit={searchTeachers}>
+        <Form onSubmit={searchTeachers}>
           <Select
             name="subject"
             label="Matéria"
@@ -80,15 +80,15 @@ const TeacherList: React.FC = () => {
           <button type="submit">
             <FiSearch size={22} />
           </button>
-        </form>
+        </Form>
       </PageHeader>
 
-      <main>
+      <Content>
         {teachers.map((teacher: Teacher) => {
           return <TeacherItem key={teacher.id} teacher={teacher} />;
         })}
-      </main>
-    </div>
+      </Content>
+    </Container>
   );
 };
 

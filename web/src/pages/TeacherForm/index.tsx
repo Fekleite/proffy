@@ -1,7 +1,7 @@
 import React, { useState, FormEvent } from "react";
 import { useHistory } from "react-router-dom";
 
-import "./styles.css";
+import { Container, Content, Form, Footer, ScheduleItem } from "./styles";
 
 import warningIcon from "../../assets/images/icons/warning.svg";
 
@@ -67,14 +67,14 @@ const TeacherForm: React.FC = () => {
   }
 
   return (
-    <div id="page-teacher-form" className="container">
+    <Container>
       <PageHeader
         title="Que incrível que você quer dar aulas."
         description="O primeiro passo é preencher esse formulário de inscrição"
       />
 
-      <main>
-        <form onSubmit={handleCreateClass}>
+      <Content>
+        <Form onSubmit={handleCreateClass}>
           <fieldset>
             <legend>Seus dados</legend>
 
@@ -157,7 +157,7 @@ const TeacherForm: React.FC = () => {
 
             {scheduleItems.map((scheduleItem, index) => {
               return (
-                <div key={index} className="schedule-item">
+                <ScheduleItem key={index}>
                   <Select
                     name="week_day"
                     label="Dia da semana"
@@ -193,12 +193,12 @@ const TeacherForm: React.FC = () => {
                       setScheduleItemValue(index, "to", e.target.value)
                     }
                   />
-                </div>
+                </ScheduleItem>
               );
             })}
           </fieldset>
 
-          <footer>
+          <Footer>
             <p>
               <img src={warningIcon} alt="Aviso importante" />
               Importante! <br />
@@ -206,10 +206,10 @@ const TeacherForm: React.FC = () => {
             </p>
 
             <button type="submit">Salvar cadastro</button>
-          </footer>
-        </form>
-      </main>
-    </div>
+          </Footer>
+        </Form>
+      </Content>
+    </Container>
   );
 };
 

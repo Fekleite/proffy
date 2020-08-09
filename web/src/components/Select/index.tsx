@@ -1,6 +1,6 @@
 import React, { SelectHTMLAttributes } from "react";
 
-import "./styles.css";
+import { SelectBlock } from "./styles";
 
 interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
   label: string;
@@ -13,7 +13,7 @@ interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
 
 const Select: React.FC<SelectProps> = ({ label, name, options, ...rest }) => {
   return (
-    <div className="select-block">
+    <SelectBlock>
       <label htmlFor={name}>{label}</label>
       <select value="" name={name} id={name} {...rest}>
         <option value="" disabled hidden>
@@ -27,7 +27,7 @@ const Select: React.FC<SelectProps> = ({ label, name, options, ...rest }) => {
           );
         })}
       </select>
-    </div>
+    </SelectBlock>
   );
 };
 

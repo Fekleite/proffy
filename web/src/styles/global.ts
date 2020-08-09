@@ -1,4 +1,7 @@
-:root {
+import { createGlobalStyle } from "styled-components";
+
+export default createGlobalStyle`
+  :root {
   font-size: 60%;
 
   --color-background: #f0f0f7;
@@ -49,11 +52,7 @@ button,
 textarea {
   font: 500 1.6rem Poppins;
   color: var(--color-text-base);
-}
-
-.container {
-  width: 90vw;
-  max-width: 700px;
+  outline: none;
 }
 
 @media (min-width: 700px) {
@@ -61,3 +60,5 @@ textarea {
     font-size: 62.5%;
   }
 }
+
+`;
