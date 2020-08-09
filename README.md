@@ -39,10 +39,9 @@
 
 ## Extra:
 
-- [ ] Styled Components
+- [x] Styled Components
 - [ ] Unform
 - [ ] Redux ou Context API
-- [ ] Upload de imagem
 - [ ] Picker
 - [ ] Themes
 
